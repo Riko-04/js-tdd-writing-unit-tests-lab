@@ -4,9 +4,8 @@ function isPalindrome(word) {
         throw new Error("Input must be a string");
     }
 
-    // Check if the input is empty
     if (word === '') {
-        return false; // Empty string is not a palindrome
+        return false;
     }
 
     // Check if the word contains only alphabetic characters
